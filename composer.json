@@ -1,0 +1,22 @@
+{
+    "name": "bestit/commercetools-xml-mapping-bundle",
+    "description": "This bundle provides you with a service, which maps xml nodes to properties of the commercetools models.",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Björn Lange",
+            "email": "lange@bestit-online.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BestIt\\CtXmlMappingBundle\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/symfony": "^3.1",
+        "commercetools/php-sdk": "^1.4"
+    }
+}

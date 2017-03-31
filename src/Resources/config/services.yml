@@ -1,0 +1,6 @@
+services:
+    best_it_ct_xml_mapping.mapping_manager:
+        class: BestIt\CtXmlMappingBundle\MappingManager
+        arguments:
+            - '%best_it_ct_xml_mapping.mappings%'
+            - '@?best_it_ct_xml_mapping.logger'
